@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "validUser": {
     "username": "Admin",
@@ -12,4 +13,20 @@
     "password": "admin321"
   },
   "empty": ""
+=======
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUsername": {
+    "username": "test",
+    "password": "admin123"
+  },
+  "invalidPassword": {
+    "username": "Admin",
+    "password": "admin321"
+  },
+  "empty": ""
+>>>>>>> 80bd8f9f486386ae37b077042dc506c28f90a284
 }
