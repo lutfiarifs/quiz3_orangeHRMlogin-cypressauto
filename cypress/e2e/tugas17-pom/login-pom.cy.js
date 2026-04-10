@@ -15,7 +15,7 @@ describe('OrangeHRM Login Feature with POM', () => {
   });
 
   // Test Case 2 - Tes Login dengan Ssername "test"
-  it('Login dengan Username "test', function() {
+  it('Login dengan Username "test"', function() {
     
     // Mengisi kolom Username dengan "test" yang berarti username salah dari properti invalidUsername
     LoginPage.login(this.data.invalidUsername.username, this.data.invalidUsername.password);
